@@ -3,7 +3,7 @@
 #' Generates a very rough temperature based on current time
 #'
 #' @param time time to generate temperature for (timestamp)
-#' @importFrom lubridate hour minute
+#' @importFrom lubridate hour minute month day
 #' @importFrom suncalc getSunlightTimes
 tempHumidity <- function(time) {
   date <- lubridate::date(time)

@@ -7,6 +7,7 @@
 
 generate <- function(db) {
   t <- Sys.time()
-  temp <- tempHumidity(t)
-  print(temp)
+  th <- tempHumidity(t)
+  print(th)
+  af <- audioFile(t)
 }

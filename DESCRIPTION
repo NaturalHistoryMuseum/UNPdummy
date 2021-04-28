@@ -12,6 +12,7 @@ License: AGPL (>= 3)
 Encoding: UTF-8
 Imports:
     lubridate,
+    sonicscrewdriver,
     suncalc
 LazyData: true
 RoxygenNote: 7.1.1
