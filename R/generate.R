@@ -8,6 +8,8 @@
 generate <- function(db) {
   t <- Sys.time()
   th <- tempHumidity(t)
-  print(th)
   af <- audioFile(t)
+  #Upload abiotic
+  #Upload audio
+
 }
